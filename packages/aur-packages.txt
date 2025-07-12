@@ -1,0 +1,12 @@
+clock-tui
+google-chrome
+gopreload-git
+librewolf-bin
+localsend-bin
+obsidian-cli
+pipes.c
+ttf-victor-mono
+visual-studio-code-bin
+wallust
+wlogout
+wttr
