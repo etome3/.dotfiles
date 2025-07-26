@@ -3,7 +3,7 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="bira"
+ZSH_THEME="galaxy"
 
 plugins=(
     git
@@ -45,6 +45,3 @@ eval "$(zoxide init zsh)"
 
 # Initialize Github Copilot Aliases
 eval "$(gh copilot alias -- zsh)"
-
-# Initialize thefuck
-eval $(thefuck --alias)
