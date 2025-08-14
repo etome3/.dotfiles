@@ -6,7 +6,8 @@
   "height": 10,
   "width": 20,
   "padding": {
-    "top": 2
+    "top": 2,
+    "left": 2
     }
   },
     "display": {
@@ -75,6 +76,6 @@
             "type": "custom",
             "format": "   \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[90m "
         },
-		"break",
+		"break"
     ]
 }

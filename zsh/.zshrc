@@ -14,6 +14,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# Qwen and Gemini function script
+source $HOME/.config/hypr/UserScripts/QwenCerebras.sh
+alias askq=Qwen_CLI_with_rotating_key
+alias askg=Gemini_CLI_with_zoxide_search
+
 # Check archlinux plugin commands here
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
 
@@ -45,3 +50,4 @@ eval "$(zoxide init zsh)"
 
 # Initialize Github Copilot Aliases
 eval "$(gh copilot alias -- zsh)"
+
